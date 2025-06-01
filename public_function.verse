@@ -99,4 +99,6 @@ PublicFunctions<public>:= module:
             return "{Hours}:{Minutes}:{Seconds}"
 
         return "{Minutes}:{Seconds}"
+    StringToMessage<localizes>(str:string):message = "{str}"
+
 
